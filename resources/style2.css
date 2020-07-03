@@ -1,0 +1,65 @@
+p {
+    font-size: 12pt;
+    margin: 1em 0;
+}
+
+body {
+	page: table-of-contents;
+    counter-reset: page 1
+	
+}
+
+h1 {
+	width: 100%;
+    font-size: 12pt;
+    font-weight: bold;
+    margin: 0.4em 0;
+    border-bottom:1pt solid black;
+}
+
+.section-header{
+	width: 100%;
+	height: 2em;
+    font-size: 10pt;
+    font-weight: bold;
+    margin: 0.4em 0;
+    border-bottom:1pt solid black;
+    background-color: #d0d0d0;
+}
+
+h2 {
+    font-size: 10pt;
+    font-weight: bold;
+    margin: 0.4em 0;
+}
+
+table {
+	width:100%;
+    margin-bottom: 0.4pt;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    text-indent: 0;
+    border: none;
+    border-collapse: collapse;
+}
+
+td {
+	background-color:#ffffff;
+	font-size:10pt;
+    padding: 1px;
+    text-align: inherit;
+    vertical-align: inherit;
+}
+
+th {
+	color: #000000;
+	background-color: #ffffff;
+	font-size:10pt;
+    display: table-cell;
+    font-weight: bold;
+    padding: 1px;
+    vertical-align: middle;  
+    border-bottom:1pt solid black;
+}
+
